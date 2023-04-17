@@ -167,10 +167,12 @@ namespace ChallengesWithTestsMark8
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            if (number <= 0)
-                return 0;
-            else
-                return number / 2;
+            //if (number <= 0)
+            //    return 0;
+            //else
+            //    return number / 2;
+
+            return (number <= 0) ? 0 : number / 2;
         }
     }
 }
